@@ -35,4 +35,5 @@ jobs:
         mongodb-port: 27017
 
     - run: npm i
+    - run: npm run start
     - run: npm test
